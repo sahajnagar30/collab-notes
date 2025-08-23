@@ -31,7 +31,7 @@ Users can create notes, share them with others, and edit them in real time with 
 
 ## ⚠️ Conflict Handling (Editing Notes)
 
-- In the notes table, each row has an `updated_at` timestamp column.  
+- In the `notes` table, each row has an `updated_at` timestamp column.  
 - When a user opens a note for editing, the current `updated_at` value is sent along with the form.  
 - When saving:
   1. The app fetches the latest `updated_at` from the database.  
