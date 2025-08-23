@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 $host = "localhost";
 $user = "root";   
 $pass = "";       
-$db   = "notes_app_test"; 
+$db   = "notes_app"; 
 
 $conn = new mysqli($host, $user, $pass, $db);
 
