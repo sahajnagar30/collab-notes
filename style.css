@@ -1,0 +1,239 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Forms */
+form {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Notes Grid */
+.notes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.note {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.note h4 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.note small {
+    display: block;
+    margin-top: 10px;
+    color: gray;
+}
+
+.note a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.note a:hover {
+    color: #0056b3;
+}
+
+/* Auth Pages (Login/Signup) */
+.auth-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.auth-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-container input {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.auth-container input:focus {
+    border-color: #007bff;
+}
+
+.auth-container button {
+    margin-top: 15px;
+    padding: 12px;
+    background: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.auth-container button:hover {
+    background: #0056b3;
+}
+
+.auth-container p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.auth-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+
+
+.search-bar {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.search-bar input[type="text"],
+.search-bar input[type="date"] {
+    padding: 4px 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 28px;
+}
+
+.search-bar button {
+    padding: 4px 10px;
+    font-size: 14px;
+    height: 28px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background: #0056b3;
+}
+
+.search-bar .reset-link {
+    font-size: 13px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.search-bar .reset-link:hover {
+    text-decoration: underline;
+}
+
+/* Conflict Warning */
+.conflict-warning {
+    border: 2px solid #dc3545;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.conflict-warning h4 {
+    margin: 10px 0 5px;
+    color: #721c24;
+}
+
+.conflict-warning pre {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    white-space: pre-wrap;
+    font-size: 14px;
+}
+
