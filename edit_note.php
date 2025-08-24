@@ -109,6 +109,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <button type="submit">💾 Save Changes</button>
     </form>
 </div>
+<script>
 /*
 setInterval(function() {
     const form = document.querySelector("form");
@@ -126,5 +127,6 @@ setInterval(function() {
     .catch(err => console.error("Autosave failed", err));
 }, 30000);
 */
+</script>
 </body>
 </html>
