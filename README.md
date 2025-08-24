@@ -25,7 +25,7 @@ Users can create notes, share them with others, and edit them in real time with 
 3. Run
   -Put the project folder inside htdocs (if using XAMPP)
   -Start Apache & MySQL
-  -Visit http://localhost/collab-notes/signup.php
+  -Visit http://localhost/collab-notes/
 
 ---
 
