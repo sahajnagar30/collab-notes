@@ -127,7 +127,7 @@ $sharedNotes = $stmtSh->get_result();
                 elseif ($_GET["error"] === "already_shared")   echo "⚠️ This note is already shared with that user.";
                 elseif ($_GET["error"] === "share_failed")     echo "❌ Failed to share note. Try again.";
                 elseif ($_GET["error"] === "remove_failed")    echo "❌ Failed to remove shared note.";
-                elseif ($_GET["error"] === "note_deleted")     echo "❌ This note was deleted by the owner.";
+                elseif ($_GET["error"] === "note_deleted")     echo "❌ This note doesn't exist.";
             ?>
         </p>
     <?php elseif (isset($_GET["shared"]) && $_GET["shared"] === "success"): ?>
